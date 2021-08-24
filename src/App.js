@@ -23,6 +23,9 @@ function App() {
             <Route path="/use-ref">
               <Hooks.UseRefComponent />
             </Route>
+            <Route path="/use-layout-effect">
+              <Hooks.UseLayoutEffectComponent />
+            </Route>
             {/* <Route path="/use-callback">
               <Hooks.UseCallbackComponent />
             </Route> */}
@@ -31,9 +34,6 @@ function App() {
             </Route> */}
             {/* <Route path="/use-reducer">
               <Hooks.UseReducerComponent />
-            </Route> */}
-            {/* <Route path="/use-layout-effect">
-              <Hooks.UseLayoutEffectComponent />
             </Route> */}
             {/* <Route path="/use-context">
               <Hooks.UseContextComponent />

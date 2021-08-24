@@ -15,6 +15,9 @@ function Nav() {
           <Link to="/use-ref">useRef</Link>
         </li>
         <li>
+          <Link to="/use-layout-effect">useLayoutEffect</Link>
+        </li>
+        <li>
           <Link to="/use-callback">useCallback</Link>
         </li>
         <li>
@@ -22,9 +25,6 @@ function Nav() {
         </li>
         <li>
           <Link to="/use-reducer">useReducer</Link>
-        </li>
-        <li>
-          <Link to="/use-layout-effect">useLayoutEffect</Link>
         </li>
         <li>
           <Link to="/use-context">useContext</Link>
