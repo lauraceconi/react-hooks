@@ -1,5 +1,7 @@
 import UseStateComponent from './UseState'
+import UseEffectComponent from './UseEffect'
 
 export {
-  UseStateComponent
+  UseStateComponent,
+  UseEffectComponent
 }

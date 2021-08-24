@@ -5,7 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom"
-import * as Hook from "./components"
+import * as Hooks from "./components"
 
 function App() {
   return (
@@ -43,28 +43,28 @@ function App() {
         <Switch>
           <section>
             <Route path="/use-state">
-              <Hook.UseStateComponent />
+              <Hooks.UseStateComponent />
             </Route>
-            {/* <Route path="/use-effect">
-              <Hook.UseEffectComponent />
+            <Route path="/use-effect">
+              <Hooks.UseEffectComponent />
             </Route>
-            <Route path="use-ref">
-              <Hook.UseRefComponent />
-            </Route>
-            <Route path="use-callback">
-              <Hook.UseCallbackComponent />
-            </Route>
-            <Route path="use-memo">
-              <Hook.UseMemoComponent />
-            </Route>
-            <Route path="use-reducer">
-              <Hook.UseReducerComponent />
-            </Route>
-            <Route path="use-layout-effect">
-              <Hook.UseLayoutEffectComponent />
-            </Route>
-            <Route path="use-context">
-              <Hook.UseContextComponent />
+            {/* <Route path="use-ref">
+              <Hooks.UseRefComponent />
+            </Route> */}
+            {/* <Route path="use-callback">
+              <Hooks.UseCallbackComponent />
+            </Route> */}
+            {/* <Route path="use-memo">
+              <Hooks.UseMemoComponent />
+            </Route> */}
+            {/* <Route path="use-reducer">
+              <Hooks.UseReducerComponent />
+            </Route> */}
+            {/* <Route path="use-layout-effect">
+              <Hooks.UseLayoutEffectComponent />
+            </Route> */}
+            {/* <Route path="use-context">
+              <Hooks.UseContextComponent />
             </Route> */}
           </section>
         </Switch>

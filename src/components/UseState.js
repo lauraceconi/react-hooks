@@ -8,7 +8,7 @@ export default function UseStateComponent() {
 
   return (
     <>
-      <h1>UseState</h1>
+      <h1>useState</h1>
       <h2>Counter: {counter}</h2>
       <button onClick={handleAdd}>Add</button>
       <button onClick={handleRemove}>Remove</button>
