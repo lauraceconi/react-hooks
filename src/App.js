@@ -26,6 +26,9 @@ function App() {
             <Route path="/use-layout-effect">
               <Hooks.UseLayoutEffectComponent />
             </Route>
+            <Route path="/use-imperative-handler">
+              <Hooks.UseImperativeHandlerComponent />
+            </Route>
             {/* <Route path="/use-callback">
               <Hooks.UseCallbackComponent />
             </Route> */}

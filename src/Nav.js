@@ -18,6 +18,9 @@ function Nav() {
           <Link to="/use-layout-effect">useLayoutEffect</Link>
         </li>
         <li>
+          <Link to="/use-imperative-handler">useImperativeHandler</Link>
+        </li>
+        <li>
           <Link to="/use-callback">useCallback</Link>
         </li>
         <li>
