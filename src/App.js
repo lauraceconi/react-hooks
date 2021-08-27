@@ -32,9 +32,9 @@ function App() {
             <Route path="/use-context">
               <Hooks.UseContextComponent />
             </Route>
-            {/* <Route path="/use-reducer">
+            <Route path="/use-reducer">
               <Hooks.UseReducerComponent />
-            </Route> */}
+            </Route>
             {/* <Route path="/use-callback">
               <Hooks.UseCallbackComponent />
             </Route> */}

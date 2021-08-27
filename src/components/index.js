@@ -4,6 +4,7 @@ import UseRefComponent from './UseRef'
 import UseLayoutEffectComponent from './UseLayoutEffect'
 import UseImperativeHandlerComponent from './UseImperativeHandler'
 import UseContextComponent from './UseContext'
+import UseReducerComponent from './UseReducer'
 
 export {
   UseStateComponent,
@@ -11,5 +12,6 @@ export {
   UseRefComponent,
   UseLayoutEffectComponent,
   UseImperativeHandlerComponent,
-  UseContextComponent
+  UseContextComponent,
+  UseReducerComponent
 }

@@ -7,6 +7,7 @@ export default function UseContextComponent() {
   const [username, setUsername] = useState("lceconi");
   return (
     <AppContext.Provider value={{ username, setUsername }}>
+      <h1>useContext</h1>
       <User />
     </AppContext.Provider>
   )

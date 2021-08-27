@@ -21,16 +21,16 @@ function Nav() {
           <Link to="/use-imperative-handler">useImperativeHandler</Link>
         </li>
         <li>
-          <Link to="/use-callback">useCallback</Link>
-        </li>
-        <li>
-          <Link to="/use-memo">useMemo</Link>
+          <Link to="/use-context">useContext</Link>
         </li>
         <li>
           <Link to="/use-reducer">useReducer</Link>
         </li>
         <li>
-          <Link to="/use-context">useContext</Link>
+          <Link to="/use-callback">useCallback</Link>
+        </li>
+        <li>
+          <Link to="/use-memo">useMemo</Link>
         </li>
       </ul>
     </nav>
