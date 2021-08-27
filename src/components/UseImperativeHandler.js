@@ -1,5 +1,5 @@
-import React, { useRef } from 'react';
-import Button from './Button';
+import React, { useRef } from "react"
+import Button from "./Button"
 
 export default function UseImperativeHandlerComponent() {
   const buttonRef = useRef(null)

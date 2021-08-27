@@ -29,17 +29,17 @@ function App() {
             <Route path="/use-imperative-handler">
               <Hooks.UseImperativeHandlerComponent />
             </Route>
+            <Route path="/use-context">
+              <Hooks.UseContextComponent />
+            </Route>
+            {/* <Route path="/use-reducer">
+              <Hooks.UseReducerComponent />
+            </Route> */}
             {/* <Route path="/use-callback">
               <Hooks.UseCallbackComponent />
             </Route> */}
             {/* <Route path="/use-memo">
               <Hooks.UseMemoComponent />
-            </Route> */}
-            {/* <Route path="/use-reducer">
-              <Hooks.UseReducerComponent />
-            </Route> */}
-            {/* <Route path="/use-context">
-              <Hooks.UseContextComponent />
             </Route> */}
           </section>
         </Switch>
