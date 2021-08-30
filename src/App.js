@@ -35,12 +35,12 @@ function App() {
             <Route path="/use-reducer">
               <Hooks.UseReducerComponent />
             </Route>
-            {/* <Route path="/use-callback">
+            <Route path="/use-callback">
               <Hooks.UseCallbackComponent />
-            </Route> */}
-            {/* <Route path="/use-memo">
+            </Route>
+            <Route path="/use-memo">
               <Hooks.UseMemoComponent />
-            </Route> */}
+            </Route>
           </section>
         </Switch>
       </div>
